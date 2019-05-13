@@ -26,6 +26,6 @@ def reverse_2(word):
             alist.append(answer_2)
             answer_2 = ''
     for d in alist:
-        print(reverse(d))
+        print(reverse(d), end = ' ')
 reverse_2("flipped class room is important")
 
