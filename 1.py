@@ -8,14 +8,15 @@ def reverse(word):
     answer = ''
     for i in word:
             answer = i + answer
-    print(answer)
-reverse("junyiacademy")
-
+    return(answer)
+a= reverse("junyiacademy")
+print(a)
 
 # In[19]:
 
 
 def reverse_2(word):
+    word = word + " "
     alist = list() 
     answer_2 = ''
     for i in word:
